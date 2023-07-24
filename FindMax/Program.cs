@@ -11,23 +11,15 @@ namespace FindMax
             //operation.FindMaxString("a", "b", "c");
 
 
-
-
             GenericOperation genericOperation = new GenericOperation();
             Console.WriteLine("\n\nGeneric:\n");
-
-
 
             bool flag = true;
 
             Console.WriteLine("Enter the size of  array:");
             int size = Convert.ToInt32(Console.ReadLine());
 
-
-
             Console.WriteLine("Enter the datatype:\n 1.Integer\n 2.Float\n 3.String\n 4.Exit");
-
-
 
 
             while (flag)
@@ -35,8 +27,6 @@ namespace FindMax
                 int choice = Convert.ToInt32(Console.ReadLine());
                 switch (choice)
                 {
-
-
 
                     case 1:
                         int[] arr = new int[size];
@@ -72,4 +62,3 @@ namespace FindMax
         }
     }
 }
-
